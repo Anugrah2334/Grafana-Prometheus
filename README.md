@@ -1,11 +1,11 @@
 <div align="center">
-    <img src="/assets/Grafana.png" alt="Grafana Logo" style="width: 200px; height: auto;">
-    <img src="/assets/Prometheus.png" alt="Prometheus Logo" style="width: 200px; height: auto;">
+    <img src="https://github.com/Anugrah2334/Grafana-Prometheus/blob/main/assests/Grafana.png" alt="Grafana Logo" style="width: 200px; height: auto;">
+    <img src="https://github.com/Anugrah2334/Grafana-Prometheus/blob/main/assests/Prometheus.png" alt="Prometheus Logo" style="width: 200px; height: auto;">
 </div>
 
 # Monitoring Stack with Prometheus and Grafana
 
-Created by Anugya Agarwal | SAP- 500102028
+Created by Anugrah Narayan Kumar | SAP- 500105040
 
 This project sets up a complete monitoring stack using Prometheus and Grafana with Node Exporter for system metrics collection.
 
@@ -29,32 +29,32 @@ This project sets up a complete monitoring stack using Prometheus and Grafana wi
 docker-compose up -d
 ```
 
-![Image](/assets/Screenshot%202025-04-19%20013642.png)
+![Image](https://github.com/Anugrah2334/Grafana-Prometheus/blob/main/assests/Screenshot1.png)
 
 ## Accessing the Services
 
 -   **Prometheus**: http://localhost:9090
 
-![Image](/assets/Screenshot%202025-04-19%20101841.png)
+![Image](https://github.com/Anugrah2334/Grafana-Prometheus/blob/main/assests/Screenshot2.png)
 
 -   **Grafana**: http://localhost:3000
     -   Default credentials: admin/admin
 
-![Image](/assets/Screenshot%202025-04-19%20013847.png)
+![Image](https://github.com/Anugrah2334/Grafana-Prometheus/blob/main/assests/Screenshot3.png)
 
 -   **Node Exporter Metrics**: http://localhost:9100/metrics
 
-![Image](/assets/Screenshot%202025-04-19%20012733.png)
+![Image](https://github.com/Anugrah2334/Grafana-Prometheus/blob/main/assests/Screenshot4.png)
 
 ## Verify Node Exporter and Grafana UP in Prometheus
 
-![Image](/assets/Screenshot%202025-04-19%20101900.png)
+![Image](https://github.com/Anugrah2334/Grafana-Prometheus/blob/main/assests/Screenshot5.png)
 
 ## Setting Up Grafana Dashboard
 
 1. Log in to Grafana (http://localhost:3000)
 
-![Image](/assets/Screenshot%202025-04-19%20101900.png)
+![Image](https://github.com/Anugrah2334/Grafana-Prometheus/blob/main/assests/Screenshot5.png)
 
 2. Add Prometheus as a data source:
     - Go to Configuration → Data Sources
@@ -63,7 +63,9 @@ docker-compose up -d
     - URL: http://prometheus:9090
     - Click "Save & Test"
 
-![Image](/assets/Screenshot%202025-04-19%20102259.png)
+![Image](https://github.com/Anugrah2334/Grafana-Prometheus/blob/main/assests/Screenshot6.png)
+
+![Image](https://github.com/Anugrah2334/Grafana-Prometheus/blob/main/assests/Screenshot7.png)
 
 3. Import the Node Exporter dashboard:
     - Click "+" → Import
@@ -71,13 +73,13 @@ docker-compose up -d
     - Select Prometheus data source
     - Click Import
 
-![Image](/assets/Screenshot%202025-04-19%20102428.png)
+![Image](https://github.com/Anugrah2334/Grafana-Prometheus/blob/main/assests/Screenshot8.png)
 
-![Image](/assets/Screenshot%202025-04-19%20102504.png)
+![Image](https://github.com/Anugrah2334/Grafana-Prometheus/blob/main/assests/Screenshot9.png)
 
 ## Dashboard
 
-![Image](/assets/Screenshot%202025-04-19%20102534.png)
+![Image](https://github.com/Anugrah2334/Grafana-Prometheus/blob/main/assests/Screenshot10.png)
 
 ## Configuration Files
 
